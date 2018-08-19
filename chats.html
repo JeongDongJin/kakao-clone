@@ -37,10 +37,55 @@
       </span>
       </div>
       <div class="header__column">
-        
+
       </div>
     </div>
   </header>
-
+  <main class="chats">
+    <div class="search-bar">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
+    </div>
+    <ul class="chats__list">
+      <li class="chats__chat">
+        <div class="chat__content">
+          <img src="images/HYG.png">
+          <div class="chat__preview">
+            <h3 class="chat__user">황영국</h3>
+            <span class="chat__last-message">영국아! 이건 테스트 메시지야</span>
+          </div>
+          <span class="chat__date-time">15:55</span>
+        </div>
+      </li>
+      <li class="chats__content">
+        <div class="chat__content">
+          <img src="images/Kakao.png">
+          <div class="chat__user">
+            <h3 class="chat__user">KakaoTalk</h3>
+            <span class="chat__last-massage">[카카오톡PC] You logged into Kakotalk PC from the PC</span>
+          </div>
+          <span class="chat__date-time">18:40</span>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fas fa-user"></i>
+      <span class="tab-bar__title">Friedns</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fas fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fas fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fas fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
 </body>
 </html>
