@@ -1,0 +1,30 @@
+.tab-bar {
+  background-color: #f7f7f7;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 10px 30px 5px 30px;
+}
+.tab-bar .tab-bar__tab {
+  text-align: center;
+
+  color: #c1c1c1;
+  text-decoration: none;
+}
+.tab-bar .tab-bar__tab i {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.tab-bar .tab-bar__tab--selected {
+  text-align: center;
+  color: #523737;
+  text-decoration: none;
+}
+.tab-bar .tab-bar__tab--selected i {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
